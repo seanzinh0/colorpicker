@@ -1,5 +1,7 @@
 const ColorPicker = ({colors, handleColorChange, handleReset}) => {
+    // props passed through to handle color changing and reset
     return (
+        // map each button based on array of colors
         <div className='flex justify-center h-40 w-full bg-gray-600 items-center'>
             <div className='flex'>
             <div>{colors.map((color, index) => (
